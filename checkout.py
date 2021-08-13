@@ -6,6 +6,6 @@ Created on Fri Aug 13 11:35:57 2021
 """
 
 
-item_id_input = int(input("Please enter item identifier: "))
+item_id_input = input("Please enter item identifier: ")
 
 print (item_id_input)
