@@ -5,10 +5,10 @@ Created on Fri Aug 13 11:35:57 2021
 @author: vjham
 """
 
-purchased_items = []
+items = []
 while True:
 
     item_id_input = input("Please enter item identifier: ")
-    purchased_items.append(item_id_input)
+    items.append(item_id_input)
 
-    print (purchased_items)
+    print (items)
