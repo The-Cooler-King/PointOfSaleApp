@@ -9,6 +9,8 @@ items = []
 while True:
 
     item_id_input = input("Please enter item identifier: ")
+    if item_id_input == 'DONE':
+        break
     items.append(item_id_input)
 
-    print (items)
+print (items)
