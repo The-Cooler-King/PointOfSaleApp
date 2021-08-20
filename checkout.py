@@ -7,6 +7,7 @@ Created on Fri Aug 13 11:35:57 2021
 from validate_clerk_input import validate_clerk_input
 
 items = []
+
 while True:
 
     item_id_input = input("Please enter item identifier: ")
