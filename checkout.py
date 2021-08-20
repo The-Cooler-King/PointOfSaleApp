@@ -4,7 +4,7 @@ Created on Fri Aug 13 11:35:57 2021
 
 @author: vjham
 """
-from validate_clerk_input import validate_clerk_input
+from validation import validate_clerk_input
 
 items = []
 
