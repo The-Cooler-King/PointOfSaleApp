@@ -5,7 +5,7 @@ Created on Fri Aug 13 11:35:57 2021
 @author: vjham
 """
 
-from shopping_cart import products
+from product_list import products
 
 
 def validate_clerk_input(clerk_input):
