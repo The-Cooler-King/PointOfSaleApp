@@ -14,7 +14,11 @@ while True:
         break
     items.append(item_id_input)
 
-print(GROCERY_STORE_NAME)
+
+def create_custom_receipt():
+    dashes = "--------------------------------"
+    return dashes + "\n" + GROCERY_STORE_NAME + "\n" + dashes
 
 
-
+receipt = create_custom_receipt()
+print(receipt)
