@@ -4,14 +4,14 @@ Created on Fri Aug 13 11:35:57 2021
 
 @author: vjham
 """
-from validation import validate_clerk_input
+from validation import is_clerk_input_valid
 
 items = []
 
 while True:
 
     item_id_input = input("Please enter item identifier: ")
-    if validate_clerk_input(item_id_input):
+    if is_clerk_input_valid(item_id_input):
         if item_id_input == 'DONE':
             break
         else:

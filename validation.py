@@ -8,7 +8,7 @@ Created on Thu Aug 19 18:26:19 2021
 from product_list import ProductService
 
 
-def validate_clerk_input(clerk_input):
+def is_clerk_input_valid(clerk_input):
     
     list_of_valid_product_ids = [str(product['id']) for product in ProductService.products]
     
