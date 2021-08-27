@@ -12,7 +12,4 @@ def validate_clerk_input(clerk_input):
     
     list_of_valid_product_ids = [str(product['id']) for product in ProductService.products]
     
-    if clerk_input in list_of_valid_product_ids or clerk_input == 'DONE':
-        return True
-    else:
-        return False
+    return clerk_input in list_of_valid_product_ids or clerk_input == 'DONE'
