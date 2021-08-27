@@ -6,7 +6,7 @@ Created on Fri Aug 13 11:35:57 2021
 """
 
 items = []
-grocery_store_name = "Shop N Bag"
+GROCERY_STORE_NAME = "Shop N Bag"
 while True:
 
     item_id_input = input("Please enter item identifier: ")
@@ -14,7 +14,7 @@ while True:
         break
     items.append(item_id_input)
 
-print(grocery_store_name)
+print(GROCERY_STORE_NAME)
 
 
 
