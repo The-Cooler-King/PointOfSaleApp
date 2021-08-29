@@ -7,6 +7,7 @@ Created on Fri Aug 13 11:35:57 2021
 from validation import is_clerk_input_valid
 
 items = []
+GROCERY_STORE_NAME = "Shop N Bag"
 
 while True:
 
@@ -21,4 +22,10 @@ while True:
 
 print (items)
 
+def create_custom_receipt():
+    dashes = "--------------------------------"
+    return dashes + "\n" + GROCERY_STORE_NAME + "\n" + dashes
 
+
+receipt = create_custom_receipt()
+print(receipt)
