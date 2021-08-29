@@ -22,9 +22,9 @@ while True:
         else:
             items.append(item_id_input)
     else:
-        print ("That is an invalid product identifier. You are fired!")
+        print("That is an invalid product identifier. You are fired!")
 
-print (items)
+print(items)
 
 def create_custom_receipt():
     dashes = "--------------------------------"
