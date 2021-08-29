@@ -7,10 +7,10 @@ Created on Fri Aug 13 11:35:57 2021
 from datetime import datetime
 from validation import is_clerk_input_valid
 
-items = []
 GROCERY_STORE_NAME = "Shop N Bag"
 date_and_time = datetime.now()
 DATE_TIME_FORMAT = date_and_time.strftime("%B %d %Y %H:%M:%S") # Example: August 29 2021 13:14:55
+items = []
 
 while True:
 
