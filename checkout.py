@@ -27,7 +27,10 @@ print(items)
 
 def create_custom_receipt():
     dashes = "--------------------------------"
-    return dashes + "\n" + " "*9 + GROCERY_STORE_NAME + "\n\n" + DATE_TIME_FORMAT + "\n" + dashes
+    return dashes + "\n"\
+           + " "*9 + GROCERY_STORE_NAME + "\n\n"\
+           + DATE_TIME_FORMAT + "\n" \
+           + dashes
 
 
 receipt = create_custom_receipt()
