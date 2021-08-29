@@ -7,6 +7,7 @@ Created on Fri Aug 13 11:35:57 2021
 
 items = []
 GROCERY_STORE_NAME = "Shop N Bag"
+
 while True:
 
     item_id_input = input("Please enter item identifier: ")
