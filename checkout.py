@@ -3,7 +3,6 @@
 Created on Fri Aug 13 11:35:57 2021
 
 @author: vjham
-
 """
 from datetime import datetime
 from validation import is_clerk_input_valid
