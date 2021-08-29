@@ -9,8 +9,8 @@ from validation import is_clerk_input_valid
 
 items = []
 GROCERY_STORE_NAME = "Shop N Bag"
-DATE_AND_TIME = datetime.now()
-DATE_TIME_FORMAT = DATE_AND_TIME.strftime("%B %d %Y %H:%M:%S")
+date_and_time = datetime.now()
+DATE_TIME_FORMAT = date_and_time.strftime("%B %d %Y %H:%M:%S")
 
 while True:
 
