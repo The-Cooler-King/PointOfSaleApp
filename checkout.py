@@ -8,9 +8,10 @@ from datetime import datetime
 from validation import is_clerk_input_valid
 
 GROCERY_STORE_NAME = "Shop N Bag"
-date_and_time = datetime.now()
-DATE_TIME_FORMAT = date_and_time.strftime("%B %d %Y %H:%M:%S") # Example: August 29 2021 13:14:55
+DATE_TIME_FORMAT = "%B %d %Y %H:%M:%S"  # Example: August 29 2021 13:14:55
+
 items = []
+date_time = datetime.now()
 
 while True:
 
@@ -25,11 +26,15 @@ while True:
 
 print(items)
 
+
 def create_custom_receipt():
+
     dashes = "--------------------------------"
-    return dashes + "\n"\
-           + " "*9 + GROCERY_STORE_NAME + "\n\n"\
-           + DATE_TIME_FORMAT + "\n" \
+    formatted_date_and_time = date_time.strftime(DATE_TIME_FORMAT)
+
+    return dashes + "\n" \
+           + " " * 9 + GROCERY_STORE_NAME + "\n\n" \
+           + formatted_date_and_time + "\n" \
            + dashes
 
 
